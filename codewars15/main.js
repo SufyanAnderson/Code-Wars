@@ -1,8 +1,8 @@
 //check if its a palindrome
 
-function isPalindrome(string) {
+function isPalindrome(x) {
     // your code here
-  const reversedText = string.toLowerCase()
+  const reversedText = x.toLowerCase()
   const palindrome = reversedText.split('').reverse().join('')
   
       return reversedText == palindrome
