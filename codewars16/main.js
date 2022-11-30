@@ -10,3 +10,22 @@ function filter_list(l) {
     }
     return integers
   }
+
+  function filter_list(l) {
+    let  intergers = [] 
+    for(var i = 0; i < l.length ; i++) {
+      if(Number.isInteger(l[i])){
+        intergers.push(l[i])
+      }
+    }
+    return intergers
+  }
+
+  function filter_list(l) {
+    let integers = []
+    for(var i = 0; i < l.length; i++) {
+      if(Number.isInteger(l[i])){
+        intergers.push(l[i])
+      }
+    }
+  }
